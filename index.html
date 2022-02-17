@@ -11,10 +11,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="style.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="gcek-logo.png" />
+    <link rel="icon" type="image/x-icon" href="images/gcek-logo.png" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script>
-      var deadline = new Date("feb 15, 2022 23:59:59").getTime();
+      var deadline = new Date("feb 20, 2022 23:59:59").getTime();
 
       var x = setInterval(function () {
         var now = new Date().getTime();
@@ -40,7 +40,6 @@
     </script>
   </head>
   <body>
-
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -48,26 +47,29 @@
             >GCEK Hackathon</a
           >
         </div>
-        <ul class="nav navbar-nav navbar-right ">
+        <ul class="nav navbar-nav navbar-right">
           <li><a href="/index.html" class="selected">Home</a></li>
           <li><a href="/meetourteam.html">Meet Our Team</a></li>
           <li>
-            <a href="https://www.sih.gov.in/sih2022PS"> Problem Statements </a>
+            <a href="https://www.sih.gov.in/sih2022PS" target="_blank">
+              Problem Statements
+            </a>
           </li>
-          <li><a href="gallery.html"> Gallary </a></li>
+          <li><a href="/gallery.html"> Gallary </a></li>
           <li><a href="/announcements.html">Announcements</a></li>
         </ul>
         <div>
           <marquee
             ><a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfhaqu81G_Golz7POOL8Fzw_BIdUfnhbtgBQOoq9bC54YRhsQ/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfmRjslag-ItmSLU0QGM-hMmaLjHDHKuGuIALfxXztznePjmQ/viewform"
               style="
                 text-decoration: none;
                 font-size: medium;
                 color: rgb(210, 243, 243);
               "
-              >Registration for a forming a team will be closed on 15 Feb 2022.
-              click here to register for Hackathon.</a
+              target="_blank"
+              >Submission of a Problem Statement will be closed on 20 Feb 2022.
+              click here to submit problem statement...</a
             ></marquee
           >
         </div>
@@ -86,7 +88,7 @@
         </h2>
         <h2 id="subtitle2">Proudly presented by GCE Karad</h2>
         <br />
-        <h3 id="demo">Team Registration Ends In</h3>
+        <h3 id="demo">Submission Of problem Statement will be closed on</h3>
         <div id="clockdiv">
           <div>
             <span class="days" id="day"></span>
@@ -126,7 +128,7 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="card-body sihimg">
-              <img src="sih-image.png" alt="SIH Logo" />
+              <img src="images/sih-image.png" alt="SIH Logo" />
             </div>
           </div>
           <div class="col-sm-6">
@@ -171,15 +173,35 @@
         . . . . .
       </p>
 
-
       <!--
         Image of Stpes of SIH
       -->
-      <h2 id="process-header">Process Of SIH Hackathon</h2>
-      <div style="text-align: center; margin-bottom: 20px;">
-        <img src="actual-steps.png" class="img-fluid" alt="Steps of SIH Hackathon" style="border-radius: 5%;"> 
+      <!-- <h2 id="process-header">Process Of SIH Hackathon</h2> -->
+      <!-- <div style="text-align: center; margin-bottom: 20px"> -->
+        <!-- <img
+          src="images/actual-steps.png"
+          class="img-fluid"
+          alt="Steps of SIH Hackathon" -->
+      
+      <!-- </div> -->
+      <!-- <div class="text-center">
+        <img src="images/actual-steps.png" class="rounded" alt="Steps of SIH" style="border-radius: 20px;margin-top: 15px;" />
       </div>
+
+
+      <img src="images/steps_of_sih.png" class="img-fluid" alt="Responsive image"> -->
     </main>
-    
+    <!-- <p
+        style="
+          text-shadow: 1px #fff;
+          margin: 20px;
+          font-size: 4vw;
+          text-align: center;
+          border-radius: 50px;
+          opacity: 0.4;
+        "
+      >
+        . . . . .
+      </p> -->
   </body>
 </html>

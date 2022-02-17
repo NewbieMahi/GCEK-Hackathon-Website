@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Quintessential&family=Rowdies:wght@300&display=swap");
 body {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   background-color: black;
   color: rgba(22, 164, 189, 0.9);
@@ -72,10 +75,11 @@ li:hover {
   font-size: 1.5vw;
   font-family: Roboto;
   text-align: left;
-  padding-right: 3vw;
+  padding-right: 2vw;
   color: #c4c2c2;
   letter-spacing: 1px;
   margin-left: 1vw;
+  
 }
 .viewsih {
   position: relative;
